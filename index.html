@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <h1>Quiz Game</h1>
+    <div class="quiz-container" id="quiz">
+
+        <h2 class="questionTitle">Question 1: What is the capital city of France?</h2>
+        <div class="answers">
+            <form action="" id="question1">
+                <input type="radio" name="answer" id="a1" class="answer" data-correct>
+                <label for="a1">Paris</label>
+                <input type="radio" name="answer" id="b1" class="answer">
+                <label for="b1">Rome</label>
+                <input type="radio" name="answer" id="c1" class="answer">
+                <label for="c1">London</label>
+                <input type="radio" name="answer" id="d1" class="answer">
+                <label for="d1">Madrid</label>
+            </form>
+        </div>
+
+        <h2 class="questionTitle">Question 2: Which planet is known as the "Red Planet"?</h2>
+        <div class="answers">
+            <form action="" id="question2">
+                <input type="radio" name="answer" id="a2" class="answer">
+                <label for="a2">Earth</label>
+                <input type="radio" name="answer" id="b2" class="answer">
+                <label for="b2">Jupiter</label>
+                <input type="radio" name="answer" id="c2" class="answer" data-correct>
+                <label for="c2">Mars</label>
+                <input type="radio" name="answer" id="d2" class="answer">
+                <label for="d2">Saturn</label>
+            </form>
+        </div>
+
+        <h2 class="questionTitle">Question 3: Who painted the Mona Lisa?</h2>
+        <div class="answers">
+            <form action="" id="question3">
+                <input type="radio" name="answer" id="a3" class="answer" data-correct>
+                <label for="a3">Leonardo da Vinci</label>
+                <input type="radio" name="answer" id="b3" class="answer">
+                <label for="b3">Vincent van Gogh</label>
+                <input type="radio" name="answer" id="c3" class="answer">
+                <label for="c3">Pablo Picasso</label>
+                <input type="radio" name="answer" id="d3" class="answer">
+                <label for="d3">Michelangelo</label>
+            </form>
+        </div>
+
+        <h2 class="questionTitle">Question 4: What is the chemical symbol for water?</h2>
+        <div class="answers">
+            <form action="" id="question4">
+                <input type="radio" name="answer" id="a4" class="answer">
+                <label for="a4">H</label>
+                <input type="radio" name="answer" id="b4" class="answer">
+                <label for="b4">O</label>
+                <input type="radio" name="answer" id="c4" class="answer">
+                <label for="c4">W</label>
+                <input type="radio" name="answer" id="d4" class="answer" data-correct>
+                <label for="d4">H<sub>2</sub>O</sub></label>
+            </form>
+        </div>
+
+        <h2 class="questionTitle">Question 5: What is the tallest mountain in the world?</h2>
+        <div class="answers">
+            <form action="" id="question5">
+                <input type="radio" name="answer" id="a5" class="answer">
+                <label for="a5">Mount Kilimanjaro</label>
+                <input type="radio" name="answer" id="b5" class="answer" data-correct>
+                <label for="b5">Mount Everest</label>
+                <input type="radio" name="answer" id="c5" class="answer">
+                <label for="c5">Mount Fuji</label>
+                <input type="radio" name="answer" id="d5" class="answer">
+                <label for="d5">Mount McKinley</label>
+            </form>
+        </div>
+
+        <h2 class="questionTitle">Question 6: Who wrote "Romeo and Juliet"?</h2>
+        <div class="answers">
+            <form action="" id="question6">
+                <input type="radio" name="answer" id="a6" class="answer" data-correct>
+                <label for="a6">William Shakespeare</label>
+                <input type="radio" name="answer" id="b6" class="answer">
+                <label for="b6">Charles Dickens</label>
+                <input type="radio" name="answer" id="c6" class="answer">
+                <label for="c6">Jane Austen</label>
+                <input type="radio" name="answer" id="d6" class="answer">
+                <label for="d6">Mark Twain</label>
+            </form>
+        </div>
+
+        <h2 class="questionTitle">Question 7: What is the largest ocean in the world?</h2>
+        <div class="answers">
+            <form action="" id="question7">
+                <input type="radio" name="answer" id="a7" class="answer">
+                <label for="a7">Atlantic Ocean</label>
+                <input type="radio" name="answer" id="b7" class="answer">
+                <label for="b7">Indian Ocean</label>
+                <input type="radio" name="answer" id="c7" class="answer">
+                <label for="c7">Arctic Ocean</label>
+                <input type="radio" name="answer" id="d7" class="answer" data-correct>
+                <label for="d7">Pacific Ocean</label>
+            </form>
+        </div>
+
+        <h2 class="questionTitle">Question 8: What is the powerhouse of the cell?</h2>
+        <div class="answers">
+            <form action="" id="question8">
+                <input type="radio" name="answer" id="a8" class="answer" data-correct>
+                <label for="a8">Mitochondria</label>
+                <input type="radio" name="answer" id="b8" class="answer">
+                <label for="b8">Nucleus</label>
+                <input type="radio" name="answer" id="c8" class="answer">
+                <label for="c8">Ribosome</label>
+                <input type="radio" name="answer" id="d8" class="answer">
+                <label for="d8">Chloroplast</label>
+            </form>
+        </div>
+
+        <span id="subBtn"><button onclick="checkAnswers()">Submit</button></span>
+        <p id="goodJob">Good Job!</p>
+        <p id="result"></p>
+    </div>
+</body>
+</html>
